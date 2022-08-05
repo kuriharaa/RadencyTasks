@@ -10,10 +10,11 @@ namespace WeightsSorter
     {
         internal static string Order(string? input)
         {
-            Dictionary<string, int> weightsDict = new Dictionary<string, int> { };
+            List<KeyValuePair<string, int>> weightsDict = new List<KeyValuePair<string, int>>() { }; 
+
             foreach (int value in InputValidator.GetValidatedNumValues(input))
             {
-                weightsDict.Add(value.ToString(), Extention.GetSum(value));
+                weightsDict.Add(new KeyValuePair<string, int>(value.ToString(), Extention.GetSum(value)));
             }
 
             var sortedDictWeights = weightsDict.OrderBy(kv => kv.Value).ThenBy(kv => kv.Key);
