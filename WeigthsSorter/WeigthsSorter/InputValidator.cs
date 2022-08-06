@@ -10,7 +10,6 @@ namespace WeightsSorter
     internal static class InputValidator
     {
         private const string AllDigitsError = "contains >=1 no num substring/s || contains >=1 not positive number/s";
-
         private static void SpacesRemover(ref string input) => input = Regex.Replace(input.Trim(), @"\s+", " ");
         private static bool AreAllDigits(ref string input) => input.Replace(" ", "").All(char.IsDigit);
         private static List<string> GetValidatedValues(ref string input) => input.Split(' ').ToList();
@@ -18,11 +17,13 @@ namespace WeightsSorter
         
         internal static List<string> GetValidatedNumValues(string? input)
         {
-            if (string.IsNullOrWhiteSpace(input)) throw new Exception(string.Empty);
+            List<string> validatedValues = new List<string>();
+
+            if (string.IsNullOrWhiteSpace(input)) return validatedValues;
 
             InputValidator.SpacesRemover(ref input!);
 
-            List<string> validatedValues = GetValidatedValues(ref input);
+            validatedValues = GetValidatedValues(ref input);
 
             if (!InputValidator.AreAllDigits(ref input) || 
                 !InputValidator.AreAllPositiveValues(ref validatedValues))

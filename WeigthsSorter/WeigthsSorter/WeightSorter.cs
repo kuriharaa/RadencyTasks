@@ -17,7 +17,9 @@ namespace WeightsSorter
                 weightsDict.Add(new KeyValuePair<string, int>(value, Extention.GetSum(value)));
             }
 
-            var sortedDictWeights = weightsDict.OrderBy(kv => kv.Value).ThenBy(kv => kv.Key);
+            var sortedDictWeights = (weightsDict.Any())?
+                                    weightsDict.OrderBy(kv => kv.Value).ThenBy(kv => kv.Key).ToList():
+                                    weightsDict;
 
             return string.Join(' ', sortedDictWeights.Select(kv => kv.Key));
         }
