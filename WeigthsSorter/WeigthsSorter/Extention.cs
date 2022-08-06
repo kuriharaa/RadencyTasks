@@ -2,14 +2,15 @@
 {
     internal static class Extention
     {
-        internal static int GetSum(int value)
+        internal static int GetSum(string value)
         {
             int sum = 0;
 
-            while (value != 0)
+            char[] numbers = value.ToCharArray();
+
+            foreach(char number in numbers)
             {
-                sum += value % 10;
-                value /= 10;
+                sum += int.Parse(number.ToString());
             }
 
             return sum;

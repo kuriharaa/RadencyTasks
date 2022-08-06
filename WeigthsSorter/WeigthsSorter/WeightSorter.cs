@@ -12,9 +12,9 @@ namespace WeightsSorter
         {
             List<KeyValuePair<string, int>> weightsDict = new List<KeyValuePair<string, int>>() { }; 
 
-            foreach (int value in InputValidator.GetValidatedNumValues(input))
+            foreach (string value in InputValidator.GetValidatedNumValues(input))
             {
-                weightsDict.Add(new KeyValuePair<string, int>(value.ToString(), Extention.GetSum(value)));
+                weightsDict.Add(new KeyValuePair<string, int>(value, Extention.GetSum(value)));
             }
 
             var sortedDictWeights = weightsDict.OrderBy(kv => kv.Value).ThenBy(kv => kv.Key);

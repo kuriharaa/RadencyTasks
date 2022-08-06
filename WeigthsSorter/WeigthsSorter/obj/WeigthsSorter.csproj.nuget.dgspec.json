@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\apps\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj": {}
+    "D:\\apps\\radency\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj": {}
   },
   "projects": {
-    "D:\\apps\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj": {
+    "D:\\apps\\radency\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\apps\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj",
+        "projectUniqueName": "D:\\apps\\radency\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj",
         "projectName": "WeigthsSorter",
-        "projectPath": "D:\\apps\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj",
-        "packagesPath": "C:\\Users\\rrrrr\\.nuget\\packages\\",
-        "outputPath": "D:\\apps\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\obj\\",
+        "projectPath": "D:\\apps\\radency\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\WeigthsSorter.csproj",
+        "packagesPath": "C:\\Users\\acute\\.nuget\\packages\\",
+        "outputPath": "D:\\apps\\radency\\RadencyTasks\\WeigthsSorter\\WeigthsSorter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rrrrr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\acute\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
