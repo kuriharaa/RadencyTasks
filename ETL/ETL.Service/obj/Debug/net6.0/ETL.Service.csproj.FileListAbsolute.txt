@@ -1,0 +1,12 @@
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\bin\Debug\net6.0\ETL.Service.deps.json
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\bin\Debug\net6.0\ETL.Service.dll
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\bin\Debug\net6.0\ETL.Service.pdb
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ETL.Service.csproj.AssemblyReference.cache
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ETL.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ETL.Service.AssemblyInfoInputs.cache
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ETL.Service.AssemblyInfo.cs
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ETL.Service.csproj.CoreCompileInputs.cache
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ETL.Service.dll
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\refint\ETL.Service.dll
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ETL.Service.pdb
+D:\apps\radency\RadencyTasks\ETL\ETL.Service\obj\Debug\net6.0\ref\ETL.Service.dll
